@@ -13,7 +13,7 @@ const DarkModeContext = createContext<{
 
 // Provider component
 export function DarkModeProvider({ children }: { children: React.ReactNode }) {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode] = useState(true);
 
   // Force dark mode on mount
   useEffect(() => {
