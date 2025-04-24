@@ -260,7 +260,7 @@ export default function CibilScoreAnimation() {
                 On the basis of your <span className='text-blue-500'>CIBIL</span> score, you are eligible for a loan of <span className="text-red-500">₹10,000</span>
               </p>
               <p className="text-xl mt-15 text-gray-400">
-                To increase the limit further, please upload your <Link href="/upload-bank-statement" className="text-blue-500 hover:text-blue-400 underline"> bank statement</Link> here
+                To increase the limit further, please upload your <Link href="#" className="text-blue-500 hover:text-blue-400 underline"> bank statement</Link> here
               </p>
             </div>
           </div>
