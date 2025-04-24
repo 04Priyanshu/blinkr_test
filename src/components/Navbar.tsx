@@ -16,19 +16,19 @@ function Navbar({ className }: { className?: string }) {
             </MenuItem>
             </Link>
 
-            <Link href="/about-us" className="mx-7">
+            <Link href="#" className="mx-7">
             <MenuItem item="About Us" setActive={setActive} active={active}>
                 
             </MenuItem>
             </Link>
 
-            <Link href="/contact-us" className="mx-7">
+            <Link href="#" className="mx-7">
             <MenuItem item="Contact Us" setActive={setActive} active={active}>
                 
             </MenuItem>
             </Link>
 
-            <Link href="/repay" className="mx-7">
+            <Link href="#" className="mx-7">
             <MenuItem item="Repay" setActive={setActive} active={active}>
                 
             </MenuItem>
