@@ -75,7 +75,7 @@ export default function ApplyPage() {
     <div className="relative z-10 w-full flex items-center justify-center mt-32">
         <CardContainer className="inter-var">
           <CardBody className={cn(
-            "relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-[32rem] rounded-xl p-8 border transition-all duration-500 [transform-style:preserve-3d]",
+            "relative group/card dark:shadow-2xl dark:shadow-emerald-500/[0.1] bg-neutral-950 dark:bg-neutral-950 border border-emerald-500/20 w-auto sm:w-[30rem] h-[32rem] rounded-xl p-8 transition-all duration-500 [transform-style:preserve-3d]",
             isFlipped ? "[transform:rotateY(180deg)]" : ""
           )}>
             <BackgroundBeams />

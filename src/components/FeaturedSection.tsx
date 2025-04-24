@@ -15,7 +15,7 @@ export function FeaturedSection() {
         transition={{ duration: 0.7 }}
       >
         <CardContainer className="inter-var">
-          <CardBody className="radial-gradient(68.54% 68.72% at 55.02% 31.46%, hsla(0, 0%, 100%, .08) 0, hsla(0, 0%, 100%, .02) 50%, hsla(0, 0%, 100%, 0) 80%) relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border flex flex-col items-center justify-center">
+          <CardBody className="radial-gradient(68.54% 68.72% at 55.02% 31.46%, hsla(0, 0%, 100%, .08) 0, hsla(0, 0%, 100%, .02) 50%, hsla(0, 0%, 100%, 0) 80%) relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border flex flex-col items-center justify-center">
             <BackgroundBeams />
             <CardItem
               translateZ="50"
@@ -26,7 +26,7 @@ export function FeaturedSection() {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-neutral-500 text-2xl max-w-sm mt-10 dark:text-neutral-300 text-center"
+              className="text-neutral-300 text-2xl max-w-sm mt-10 text-center"
             >
               Faster Processing <br /> <span className="text-center">and</span> <br />get disbursed quickly in a blink
             </CardItem>
@@ -44,18 +44,18 @@ export function FeaturedSection() {
         transition={{ delay: 0.2, duration: 0.7 }}
       >
         <CardContainer className="inter-var">
-          <CardBody className="radial-gradient(50% 50% at 50% 50%, hsla(0, 0%, 100%, .06) 0, hsla(0, 0%, 100%, .02) 80%, transparent 100%) relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+          <CardBody className="radial-gradient(50% 50% at 50% 50%, hsla(0, 0%, 100%, .06) 0, hsla(0, 0%, 100%, .02) 80%, transparent 100%) relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
             <BackgroundBeams />
             <CardItem
               translateZ="50"
-              className="text-xl font-bold text-neutral-600 dark:text-white"
+              className="text-xl font-bold text-white"
             >
               Make things float in air
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
-              className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+              className="text-neutral-300 text-sm max-w-sm mt-2"
             >
               Hover over this card to unleash the power of CSS perspective
             </CardItem>
@@ -73,18 +73,18 @@ export function FeaturedSection() {
         transition={{ delay: 0.4, duration: 0.7 }}
       >
         <CardContainer className="inter-var">
-          <CardBody className="radial-gradient(50% 50% at 50% 50%, hsla(0, 0%, 100%, .04) 0, hsla(0, 0%, 100%, .02) 80%, transparent 100%) relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+          <CardBody className="radial-gradient(50% 50% at 50% 50%, hsla(0, 0%, 100%, .04) 0, hsla(0, 0%, 100%, .02) 80%, transparent 100%) relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
             <BackgroundBeams />
             <CardItem
               translateZ="50"
-              className="text-xl font-bold text-neutral-600 dark:text-white"
+              className="text-xl font-bold text-white"
             >
               Make things float in air
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
-              className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+              className="text-neutral-300 text-sm max-w-sm mt-2"
             >
               Hover over this card to unleash the power of CSS perspective
             </CardItem>

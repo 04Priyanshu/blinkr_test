@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { DarkModeProvider } from "./providers";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,10 +32,12 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased vsc-initialized`}//vsc-initialized for hydration error
+        className={`${geistSans.variable} ${geistMono.variable} antialiased vsc-initialized dark:bg-black dark:text-white`}
       >
-        <Navbar />
-        {children}
+        <DarkModeProvider>
+          <Navbar />
+          {children}
+        </DarkModeProvider>
       </body>
     </html>
   );

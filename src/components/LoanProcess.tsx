@@ -7,7 +7,7 @@ const data =[
         title: "Enter your PAN and mobile number",
         content: (
           <div>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
               Enter your PAN and mobile number to avail loan
             </p>
           </div>
@@ -17,7 +17,7 @@ const data =[
         title: "Get your CIBIL score",
         content: (
           <div>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
               Get your CIBIL score to get a loan amount
             </p>
           </div>
@@ -27,7 +27,7 @@ const data =[
         title: "Upload your Bank Statement",
         content: (
           <div>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
               Upload your documents to further incresase your loan amount
             </p>
           </div>
@@ -37,7 +37,7 @@ const data =[
         title: "Get your eKYC done",
         content: (
           <div>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
               Enter your aadhar details to get your eKYC done
             </p>
           </div>
@@ -47,7 +47,7 @@ const data =[
         title: "Esign your sanction letter",
         content: (
           <div>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
               Esign your sanction letter to avail loan
             </p>
           </div>
@@ -57,7 +57,7 @@ const data =[
         title: "Get your loan disbursed",
         content: (
           <div>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
               Get your loan disbursed to your bank account
             </p>
           </div>
