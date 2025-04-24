@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable prefer-const */
 /**
  * Note: Use position fixed according to your needs
@@ -168,7 +169,7 @@ function IconContainer({
   const [hovered, setHovered] = useState(false);
 
   return (
-    <Link href={href}>
+    <Link href={href as any}>
       <motion.div
         ref={ref}
         style={{ width, height }}
